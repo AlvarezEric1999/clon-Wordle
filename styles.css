@@ -18,6 +18,12 @@ ul{
 }
 
 
+h1{
+    text-align: center;
+    margin: 20px 0 60px 0 ;
+}
+
+
 button{
     width: 50px;
     height: 50px;
@@ -25,10 +31,64 @@ button{
     cursor: pointer;
     border-radius: 10px;
     margin: 2px;
+    border:  1px solid white;
 }
 
 
 button:hover{
 
     opacity: 0.6;
+}
+
+
+main{
+
+    width: 50%;
+    min-width: 200px;
+    margin:  0 auto;
+
+}
+
+
+
+#grid{
+
+    width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+
+}
+
+
+.grid-row{
+
+   
+    width: 50px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    gap: 20px;
+}
+
+.row-item{
+
+    width: 45px;
+    height: 45px;
+    border: solid 1px white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+}
+
+
+.gray{
+    background: gray;
+}
+
+.green{
+    background: green;
+}
+
+.marron{
+    background: brown;
 }
